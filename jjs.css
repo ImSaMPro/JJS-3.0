@@ -1,0 +1,234 @@
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.jjs-serif{font-family:serif}.jjs-sans-serif{font-family:sans-serif}.jjs-cursive{font-family:cursive}.jjs-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.jjs-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.jjs-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.jjs-table,.jjs-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.jjs-table-all{border:1px solid #ccc}
+.jjs-bordered tr,.jjs-table-all tr{border-bottom:1px solid #ddd}.jjs-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.jjs-table-all tr:nth-child(odd){background-color:#fff}.jjs-table-all tr:nth-child(even){background-color:#f1f1f1}
+.jjs-hoverable tbody tr:hover,.jjs-ul.jjs-hoverable li:hover{background-color:#ccc}.jjs-centered tr th,.jjs-centered tr td{text-align:center}
+.jjs-table td,.jjs-table th,.jjs-table-all td,.jjs-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.jjs-table th:first-child,.jjs-table td:first-child,.jjs-table-all th:first-child,.jjs-table-all td:first-child{padding-left:16px}
+.jjs-btn,.jjs-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.jjs-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.jjs-btn,.jjs-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.jjs-disabled,.jjs-btn:disabled,.jjs-button:disabled{cursor:not-allowed;opacity:0.3}.jjs-disabled *,:disabled *{pointer-events:none}
+.jjs-btn.jjs-disabled:hover,.jjs-btn:disabled:hover{box-shadow:none}
+.jjs-badge,.jjs-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.jjs-badge{border-radius:50%}
+.jjs-ul{list-style-type:none;padding:0;margin:0}.jjs-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.jjs-ul li:last-child{border-bottom:none}
+.jjs-tooltip,.jjs-display-container{position:relative}.jjs-tooltip .jjs-text{display:none}.jjs-tooltip:hover .jjs-text{display:inline-block}
+.jjs-ripple:active{opacity:0.5}.jjs-ripple{transition:opacity 0s}
+.jjs-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.jjs-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.jjs-dropdown-click,.jjs-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.jjs-dropdown-hover:hover .jjs-dropdown-content{display:block}
+.jjs-dropdown-hover:first-child,.jjs-dropdown-click:hover{background-color:#ccc;color:#000}
+.jjs-dropdown-hover:hover > .jjs-button:first-child,.jjs-dropdown-click:hover > .jjs-button:first-child{background-color:#ccc;color:#000}
+.jjs-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.jjs-check,.jjs-radio{width:24px;height:24px;position:relative;top:6px}
+.jjs-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.jjs-bar-block .jjs-dropdown-hover,.jjs-bar-block .jjs-dropdown-click{width:100%}
+.jjs-bar-block .jjs-dropdown-hover .jjs-dropdown-content,.jjs-bar-block .jjs-dropdown-click .jjs-dropdown-content{min-width:100%}
+.jjs-bar-block .jjs-dropdown-hover .jjs-button,.jjs-bar-block .jjs-dropdown-click .jjs-button{width:100%;text-align:left;padding:8px 16px}
+.jjs-main,#main{transition:margin-left .4s}
+.jjs-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.jjs-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.jjs-bar{width:100%;overflow:hidden}.jjs-center .jjs-bar{display:inline-block;width:auto}
+.jjs-bar .jjs-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.jjs-bar .jjs-dropdown-hover,.jjs-bar .jjs-dropdown-click{position:static;float:left}
+.jjs-bar .jjs-button{white-space:normal}
+.jjs-bar-block .jjs-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.jjs-bar-block.jjs-center .jjs-bar-item{text-align:center}.jjs-block{display:block;width:100%}
+.jjs-responsive{display:block;overflow-x:auto}
+.jjs-container:after,.jjs-container:before,.jjs-panel:after,.jjs-panel:before,.jjs-row:after,.jjs-row:before,.jjs-row-padding:after,.jjs-row-padding:before,
+.jjs-cell-row:before,.jjs-cell-row:after,.jjs-clear:after,.jjs-clear:before,.jjs-bar:before,.jjs-bar:after{content:"";display:table;clear:both}
+.jjs-col,.jjs-half,.jjs-third,.jjs-twothird,.jjs-threequarter,.jjs-quarter{float:left;width:100%}
+.jjs-col.s1{width:8.33333%}.jjs-col.s2{width:16.66666%}.jjs-col.s3{width:24.99999%}.jjs-col.s4{width:33.33333%}
+.jjs-col.s5{width:41.66666%}.jjs-col.s6{width:49.99999%}.jjs-col.s7{width:58.33333%}.jjs-col.s8{width:66.66666%}
+.jjs-col.s9{width:74.99999%}.jjs-col.s10{width:83.33333%}.jjs-col.s11{width:91.66666%}.jjs-col.s12{width:99.99999%}
+@media (min-width:601px){.jjs-col.m1{width:8.33333%}.jjs-col.m2{width:16.66666%}.jjs-col.m3,.jjs-quarter{width:24.99999%}.jjs-col.m4,.jjs-third{width:33.33333%}
+.jjs-col.m5{width:41.66666%}.jjs-col.m6,.jjs-half{width:49.99999%}.jjs-col.m7{width:58.33333%}.jjs-col.m8,.jjs-twothird{width:66.66666%}
+.jjs-col.m9,.jjs-threequarter{width:74.99999%}.jjs-col.m10{width:83.33333%}.jjs-col.m11{width:91.66666%}.jjs-col.m12{width:99.99999%}}
+@media (min-width:993px){.jjs-col.l1{width:8.33333%}.jjs-col.l2{width:16.66666%}.jjs-col.l3{width:24.99999%}.jjs-col.l4{width:33.33333%}
+.jjs-col.l5{width:41.66666%}.jjs-col.l6{width:49.99999%}.jjs-col.l7{width:58.33333%}.jjs-col.l8{width:66.66666%}
+.jjs-col.l9{width:74.99999%}.jjs-col.l10{width:83.33333%}.jjs-col.l11{width:91.66666%}.jjs-col.l12{width:99.99999%}}
+.jjs-rest{overflow:hidden}.jjs-stretch{margin-left:-16px;margin-right:-16px}
+.jjs-content,.jjs-auto{margin-left:auto;margin-right:auto}.jjs-content{max-width:980px}.jjs-auto{max-width:1140px}
+.jjs-cell-row{display:table;width:100%}.jjs-cell{display:table-cell}
+.jjs-cell-top{vertical-align:top}.jjs-cell-middle{vertical-align:middle}.jjs-cell-bottom{vertical-align:bottom}
+.jjs-hide{display:none!important}.jjs-show-block,.jjs-show{display:block!important}.jjs-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.jjs-auto{max-width:95%}}
+@media (max-width:600px){.jjs-modal-content{margin:0 10px;width:auto!important}.jjs-modal{padding-top:30px}
+.jjs-dropdown-hover.jjs-mobile .jjs-dropdown-content,.jjs-dropdown-click.jjs-mobile .jjs-dropdown-content{position:relative}	
+.jjs-hide-small{display:none!important}.jjs-mobile{display:block;width:100%!important}.jjs-bar-item.jjs-mobile,.jjs-dropdown-hover.jjs-mobile,.jjs-dropdown-click.jjs-mobile{text-align:center}
+.jjs-dropdown-hover.jjs-mobile,.jjs-dropdown-hover.jjs-mobile .jjs-btn,.jjs-dropdown-hover.jjs-mobile .jjs-button,.jjs-dropdown-click.jjs-mobile,.jjs-dropdown-click.jjs-mobile .jjs-btn,.jjs-dropdown-click.jjs-mobile .jjs-button{width:100%}}
+@media (max-width:768px){.jjs-modal-content{width:500px}.jjs-modal{padding-top:50px}}
+@media (min-width:993px){.jjs-modal-content{width:900px}.jjs-hide-large{display:none!important}.jjs-sidebar.jjs-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.jjs-hide-medium{display:none!important}}
+@media (max-width:992px){.jjs-sidebar.jjs-collapse{display:none}.jjs-main{margin-left:0!important;margin-right:0!important}.jjs-auto{max-width:100%}}
+.jjs-top,.jjs-bottom{position:fixed;width:100%;z-index:1}.jjs-top{top:0}.jjs-bottom{bottom:0}
+.jjs-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.jjs-display-topleft{position:absolute;left:0;top:0}.jjs-display-topright{position:absolute;right:0;top:0}
+.jjs-display-bottomleft{position:absolute;left:0;bottom:0}.jjs-display-bottomright{position:absolute;right:0;bottom:0}
+.jjs-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.jjs-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.jjs-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.jjs-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.jjs-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.jjs-display-container:hover .jjs-display-hover{display:block}.jjs-display-container:hover span.jjs-display-hover{display:inline-block}.jjs-display-hover{display:none}
+.jjs-display-position{position:absolute}
+.jjs-circle{border-radius:50%}
+.jjs-round-small{border-radius:2px}.jjs-round,.jjs-round-medium{border-radius:4px}.jjs-round-large{border-radius:8px}.jjs-round-xlarge{border-radius:16px}.jjs-round-xxlarge{border-radius:32px}
+.jjs-row-padding,.jjs-row-padding>.jjs-half,.jjs-row-padding>.jjs-third,.jjs-row-padding>.jjs-twothird,.jjs-row-padding>.jjs-threequarter,.jjs-row-padding>.jjs-quarter,.jjs-row-padding>.jjs-col{padding:0 8px}
+.jjs-container,.jjs-panel{padding:0.01em 16px}.jjs-panel{margin-top:16px;margin-bottom:16px}
+.jjs-code,.jjs-codespan{font-family:Consolas,"courier new";font-size:16px}
+.jjs-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.jjs-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.jjs-card,.jjs-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.jjs-card-4,.jjs-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.jjs-spin{animation:jjs-spin 2s infinite linear}@keyframes jjs-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.jjs-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.jjs-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.jjs-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.jjs-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.jjs-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.jjs-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.jjs-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.jjs-animate-input{transition:width 0.4s ease-in-out}.jjs-animate-input:focus{width:100%!important}
+.jjs-opacity,.jjs-hover-opacity:hover{opacity:0.60}.jjs-opacity-off,.jjs-hover-opacity-off:hover{opacity:1}
+.jjs-opacity-max{opacity:0.25}.jjs-opacity-min{opacity:0.75}
+.jjs-greyscale-max,.jjs-grayscale-max,.jjs-hover-greyscale:hover,.jjs-hover-grayscale:hover{filter:grayscale(100%)}
+.jjs-greyscale,.jjs-grayscale{filter:grayscale(75%)}.jjs-greyscale-min,.jjs-grayscale-min{filter:grayscale(50%)}
+.jjs-sepia{filter:sepia(75%)}.jjs-sepia-max,.jjs-hover-sepia:hover{filter:sepia(100%)}.jjs-sepia-min{filter:sepia(50%)}
+.jjs-tiny{font-size:10px!important}.jjs-small{font-size:12px!important}.jjs-medium{font-size:15px!important}.jjs-large{font-size:18px!important}
+.jjs-xlarge{font-size:24px!important}.jjs-xxlarge{font-size:36px!important}.jjs-xxxlarge{font-size:48px!important}.jjs-jumbo{font-size:64px!important}
+.jjs-left-align{text-align:left!important}.jjs-right-align{text-align:right!important}.jjs-justify{text-align:justify!important}.jjs-center{text-align:center!important}
+.jjs-border-0{border:0!important}.jjs-border{border:1px solid #ccc!important}
+.jjs-border-top{border-top:1px solid #ccc!important}.jjs-border-bottom{border-bottom:1px solid #ccc!important}
+.jjs-border-left{border-left:1px solid #ccc!important}.jjs-border-right{border-right:1px solid #ccc!important}
+.jjs-topbar{border-top:6px solid #ccc!important}.jjs-bottombar{border-bottom:6px solid #ccc!important}
+.jjs-leftbar{border-left:6px solid #ccc!important}.jjs-rightbar{border-right:6px solid #ccc!important}
+.jjs-section,.jjs-code{margin-top:16px!important;margin-bottom:16px!important}
+.jjs-margin{margin:16px!important}.jjs-margin-top{margin-top:16px!important}.jjs-margin-bottom{margin-bottom:16px!important}
+.jjs-margin-left{margin-left:16px!important}.jjs-margin-right{margin-right:16px!important}
+.jjs-padding-small{padding:4px 8px!important}.jjs-padding{padding:8px 16px!important}.jjs-padding-large{padding:12px 24px!important}
+.jjs-padding-16{padding-top:16px!important;padding-bottom:16px!important}.jjs-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.jjs-padding-32{padding-top:32px!important;padding-bottom:32px!important}.jjs-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.jjs-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.jjs-padding-top-64{padding-top:64px!important}.jjs-padding-top-48{padding-top:48px!important}
+.jjs-padding-top-32{padding-top:32px!important}.jjs-padding-top-24{padding-top:24px!important}
+.jjs-left{float:left!important}.jjs-right{float:right!important}
+.jjs-button:hover{color:#000!important;background-color:#ccc!important}
+.jjs-transparent,.jjs-hover-none:hover{background-color:transparent!important}
+.jjs-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.jjs-amber,.jjs-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.jjs-aqua,.jjs-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.jjs-blue,.jjs-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.jjs-light-blue,.jjs-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.jjs-brown,.jjs-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.jjs-cyan,.jjs-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.jjs-blue-grey,.jjs-hover-blue-grey:hover,.jjs-blue-gray,.jjs-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.jjs-green,.jjs-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.jjs-light-green,.jjs-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.jjs-indigo,.jjs-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.jjs-khaki,.jjs-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.jjs-lime,.jjs-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.jjs-orange,.jjs-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.jjs-deep-orange,.jjs-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.jjs-pink,.jjs-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.jjs-purple,.jjs-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.jjs-deep-purple,.jjs-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.jjs-red,.jjs-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.jjs-sand,.jjs-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.jjs-teal,.jjs-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.jjs-yellow,.jjs-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.jjs-white,.jjs-hover-white:hover{color:#000!important;background-color:#fff!important}
+.jjs-black,.jjs-hover-black:hover{color:#fff!important;background-color:#000!important}
+.jjs-grey,.jjs-hover-grey:hover,.jjs-gray,.jjs-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.jjs-light-grey,.jjs-hover-light-grey:hover,.jjs-light-gray,.jjs-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.jjs-dark-grey,.jjs-hover-dark-grey:hover,.jjs-dark-gray,.jjs-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.jjs-pale-red,.jjs-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.jjs-pale-green,.jjs-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.jjs-pale-yellow,.jjs-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.jjs-pale-blue,.jjs-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.jjs-text-amber,.jjs-hover-text-amber:hover{color:#ffc107!important}
+.jjs-text-aqua,.jjs-hover-text-aqua:hover{color:#00ffff!important}
+.jjs-text-blue,.jjs-hover-text-blue:hover{color:#2196F3!important}
+.jjs-text-light-blue,.jjs-hover-text-light-blue:hover{color:#87CEEB!important}
+.jjs-text-brown,.jjs-hover-text-brown:hover{color:#795548!important}
+.jjs-text-cyan,.jjs-hover-text-cyan:hover{color:#00bcd4!important}
+.jjs-text-blue-grey,.jjs-hover-text-blue-grey:hover,.jjs-text-blue-gray,.jjs-hover-text-blue-gray:hover{color:#607d8b!important}
+.jjs-text-green,.jjs-hover-text-green:hover{color:#4CAF50!important}
+.jjs-text-light-green,.jjs-hover-text-light-green:hover{color:#8bc34a!important}
+.jjs-text-indigo,.jjs-hover-text-indigo:hover{color:#3f51b5!important}
+.jjs-text-khaki,.jjs-hover-text-khaki:hover{color:#b4aa50!important}
+.jjs-text-lime,.jjs-hover-text-lime:hover{color:#cddc39!important}
+.jjs-text-orange,.jjs-hover-text-orange:hover{color:#ff9800!important}
+.jjs-text-deep-orange,.jjs-hover-text-deep-orange:hover{color:#ff5722!important}
+.jjs-text-pink,.jjs-hover-text-pink:hover{color:#e91e63!important}
+.jjs-text-purple,.jjs-hover-text-purple:hover{color:#9c27b0!important}
+.jjs-text-deep-purple,.jjs-hover-text-deep-purple:hover{color:#673ab7!important}
+.jjs-text-red,.jjs-hover-text-red:hover{color:#f44336!important}
+.jjs-text-sand,.jjs-hover-text-sand:hover{color:#fdf5e6!important}
+.jjs-text-teal,.jjs-hover-text-teal:hover{color:#009688!important}
+.jjs-text-yellow,.jjs-hover-text-yellow:hover{color:#d2be0e!important}
+.jjs-text-white,.jjs-hover-text-white:hover{color:#fff!important}
+.jjs-text-black,.jjs-hover-text-black:hover{color:#000!important}
+.jjs-text-grey,.jjs-hover-text-grey:hover,.jjs-text-gray,.jjs-hover-text-gray:hover{color:#757575!important}
+.jjs-text-light-grey,.jjs-hover-text-light-grey:hover,.jjs-text-light-gray,.jjs-hover-text-light-gray:hover{color:#f1f1f1!important}
+.jjs-text-dark-grey,.jjs-hover-text-dark-grey:hover,.jjs-text-dark-gray,.jjs-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.jjs-border-amber,.jjs-hover-border-amber:hover{border-color:#ffc107!important}
+.jjs-border-aqua,.jjs-hover-border-aqua:hover{border-color:#00ffff!important}
+.jjs-border-blue,.jjs-hover-border-blue:hover{border-color:#2196F3!important}
+.jjs-border-light-blue,.jjs-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.jjs-border-brown,.jjs-hover-border-brown:hover{border-color:#795548!important}
+.jjs-border-cyan,.jjs-hover-border-cyan:hover{border-color:#00bcd4!important}
+.jjs-border-blue-grey,.jjs-hover-border-blue-grey:hover,.jjs-border-blue-gray,.jjs-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.jjs-border-green,.jjs-hover-border-green:hover{border-color:#4CAF50!important}
+.jjs-border-light-green,.jjs-hover-border-light-green:hover{border-color:#8bc34a!important}
+.jjs-border-indigo,.jjs-hover-border-indigo:hover{border-color:#3f51b5!important}
+.jjs-border-khaki,.jjs-hover-border-khaki:hover{border-color:#f0e68c!important}
+.jjs-border-lime,.jjs-hover-border-lime:hover{border-color:#cddc39!important}
+.jjs-border-orange,.jjs-hover-border-orange:hover{border-color:#ff9800!important}
+.jjs-border-deep-orange,.jjs-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.jjs-border-pink,.jjs-hover-border-pink:hover{border-color:#e91e63!important}
+.jjs-border-purple,.jjs-hover-border-purple:hover{border-color:#9c27b0!important}
+.jjs-border-deep-purple,.jjs-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.jjs-border-red,.jjs-hover-border-red:hover{border-color:#f44336!important}
+.jjs-border-sand,.jjs-hover-border-sand:hover{border-color:#fdf5e6!important}
+.jjs-border-teal,.jjs-hover-border-teal:hover{border-color:#009688!important}
+.jjs-border-yellow,.jjs-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.jjs-border-white,.jjs-hover-border-white:hover{border-color:#fff!important}
+.jjs-border-black,.jjs-hover-border-black:hover{border-color:#000!important}
+.jjs-border-grey,.jjs-hover-border-grey:hover,.jjs-border-gray,.jjs-hover-border-gray:hover{border-color:#9e9e9e!important}
+.jjs-border-light-grey,.jjs-hover-border-light-grey:hover,.jjs-border-light-gray,.jjs-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.jjs-border-dark-grey,.jjs-hover-border-dark-grey:hover,.jjs-border-dark-gray,.jjs-hover-border-dark-gray:hover{border-color:#616161!important}
+.jjs-border-pale-red,.jjs-hover-border-pale-red:hover{border-color:#ffe7e7!important}.jjs-border-pale-green,.jjs-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.jjs-border-pale-yellow,.jjs-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.jjs-border-pale-blue,.jjs-hover-border-pale-blue:hover{border-color:#e7ffff!important}
